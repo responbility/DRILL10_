@@ -24,6 +24,7 @@ def handle_events():
 
 def init():
     global bird
+    bird=[Bird()for i in range(10)]
     global running
 
     running = True
